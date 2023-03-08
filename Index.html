@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae de Melani Sol Faeti</title>
+    <link rel="icon" type="image/x-icon" href="Foto perfil CV.jpeg">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <script src="functions.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>CURRICULUM VITAE</h1>
+        <h2>Melani Sol Faeti</h2>
+    </header>
+
+    <section>
+        <div> <img src="Foto perfil CV.jpeg" alt="Foto de presentación de Melani Faeti"/> </div>
+        
+        <h3>ASISTENTE VIRTUAL</h3>
+        <h3>REDACTORA Y REVISORA DE TEXTOS</h3>
+        <h3>DISEÑADORA GRÁFICA</h3>
+
+        <h4 id="datos_personales">DATOS PERSONALES</h4>
+        <div> <span class="titulos">Edad: </span> <span>23 años</span> </div>
+        <div> <span class="titulos">Fecha de Nac.: </span> <span>30/03/1999</span> </div>
+        <div> <span class="titulos">Cel.: </span> <span>341 3 832 790</span> </div>
+        <div> <span class="titulos">E-mail: </span> <span>melanifaeti@hotmail.com</span> </div>
+        <div> <span class="titulos">Disponibilidad: </span> <span>Part time | Full time</span> </div>
+        
+        <h4>PERFIL</h4>
+        <p>Redactora y revisora de textos experta apasionada por la lectura y la escritura desde muy pequeña.</p>
+        <p>Asistente administrativa muy organizada y eficiente.</p>
+        <p>Diseñadora gráfica junior con excelentes habilidades de computación.</p>
+        
+        <h4>HABILIDADES</h4>
+        <ul> <li>Adaptabilidad y flexibilidad</li>
+             <li>Compromiso y responsabilidad</li>
+             <li>Atención y servicio al cliente</li>
+             <li>Excelente redacción y ortografía</li>
+             <li>Facilidad de aprendizaje</li>
+             <li>Autogestión y administración de tiempo</li>
+             <li>Adobe Photoshop e Illustrator</li>
+             <li>Inglés (nivel B2-C1)</li>
+        </ul>
+    </section>
+
+    <main>
+        <h4>ESTUDIOS</h4>
+        <h5>Tecnicatura en Diseño Gráfico y Comunicación Visual</h5>
+        <p>Escuela Provincial de Artes Visuales "Manuel Belgrano" | 2018 - 2023</p>
+        <h5>Liquidación de Sueldos y Jornales</h5>
+        <p>Curso completo con certificado | 2019</p>
+        <h5>Tareas Administrativas Contables</h5>
+        <p>Curso completo con certificado | 2019</p>
+        <h5>Primeros Pasos del Desarrollo Front End</h5>
+        <p>Curso a punto de finalizar | 2023</p>
+
+        <h4>EXPERIENCIA LABORAL</h4>
+        <h5>Redactora y Revisora de Textos</h5>
+        <p>Freelance | 2015 - Actualidad</p>
+        <h5>Cajera</h5>
+        <p>Huang Xie | 2019 - 2020</p>
+        <p>Obras de teatro independiente | Eventual</p>
+        <h5>Diseñadora Gráfica</h5>
+        <p>MyV Designs | 2018 - Actualidad</p>
+        <p>Sublime! | 2021 - Actualidad</p>
+        <h5>Promotora</h5>
+        <p id="mainfinal">Visa, Naranja X, Supervielle, ICBC, Modo | 2021 - 2022</p>
+    </main>
+
+    <footer>
+        <h4>CONTACTATE CONMIGO</h4>
+        <form>
+            <div>
+                <label for="lugar" class="titulos">Empresa: </label>
+                <input type="text" id="lugar" name="empresa">
+                <label for="empleador" class="titulos">Nombre: </label>
+                <input type="text" id="empleador" name="nombre">
+                <label for="telefono" class="titulos">Número de contacto: </label>
+                <input type="text" id="telefono" name="telefono">
+            </div>
+            <div>
+                <label for="puesto" class="titulos">Puesto: </label>
+                <input type="text" id="puesto" name="puesto">                
+                <label for="propuesta" class="titulos">Propuesta: </label>
+                <input type="text" id="propuesta" name="propuesta">                   
+                <button type="submit" id="enviar" onclick="EnvForm()">ENVIAR</button>
+            </div>
+        </form>
+    </footer>
+</body>
+</html>

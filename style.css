@@ -1,0 +1,35 @@
+*{background-color: #E2E5EE;}
+header {width: 65%; float: right; text-align: center;}
+section {width: 35%; float: left;}
+main {width: 65%; float: right; background-color: #F4F6F9;}
+footer {width: 100%; float: left;}
+
+section p{background-color: #E2E5EE;}
+section img{max-width: 70%; height: auto; display: block;
+            margin-left: auto; margin-right: auto; margin-bottom: 15px; margin-top: 25px;}
+
+h1, h2, h3, h4, h5{font-family: 'Poppins', sans-serif;}
+h1{font-weight: lighter;}
+h3{text-align: center; margin: 0px 5px;}
+h4{margin: 45px 5px 5px 15px; text-align: center;}
+h5{font-size: 14.5px; margin: 35px 5px 5px 15px;}
+p{font-family: 'Source Sans Pro', sans-serif; margin: 8px 15px;}
+button{font-family: 'Source Sans Pro', sans-serif; font-size: 16px; margin-left: 15px;}
+span, label{font-family: 'Source Sans Pro', sans-serif;}
+
+input{width:180px; padding:3px 10px; border:2px solid #f6f6f6; border-radius:3px;
+	  background-color:#E2E5EE; margin:8px 2px; display:inline-block;}
+
+main h4{margin-top: 55px; margin-right: 15px;}
+main h4, h5, p{background-color: #F4F6F9;}
+
+footer h4{margin: 25px 5px 15px 5px;}
+footer div{margin: 10px 0px;}
+
+.titulos{font-family: 'Source Sans Pro', sans-serif; font-weight: bold; margin-left: 15px;}
+#mainfinal{margin-bottom: 90px;}
+#puesto, #empleador{margin-left: 15px;}
+
+ul{font-family: 'Source Sans Pro', sans-serif; list-style: none; padding-inline-start: 0%;
+   margin: 8px 5px 10px 15px;}
+li{margin-top: 6px; margin-bottom: 6px;}

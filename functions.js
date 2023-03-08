@@ -1,0 +1,1 @@
+function EnvForm(){alert('Tu propuesta se ha enviado correctamente! Pronto me estaré contactando con vos.')}
